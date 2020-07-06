@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meus_dentinhosapp/adolescente.dart';
+import 'package:meus_dentinhosapp/services/userapi_service.dart';
 import 'roboresp.dart';
 import 'diario.dart';
 import 'TelaInicial.dart';
@@ -11,6 +12,7 @@ import 'registro.dart';
 import 'robo.dart';
 import 'escrever.dart';
 import 'escolha.dart';
+import 'API.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -29,6 +31,7 @@ void main() {
       "/telae": (context) => EscreverNoDiario(),
       "/telarr": (context) => RespostaSim(),
       "/telaesco": (context) => TelaEscolha(),
+      "/api": (context) => TelaUsuario(dados: UsuarioService().getUsuarios()),
     },
     theme: ThemeData(
       fontFamily: 'Raleway',

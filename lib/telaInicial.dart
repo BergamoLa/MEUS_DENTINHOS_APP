@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:meus_dentinhosapp/sobre.dart';
 
@@ -89,6 +88,31 @@ class _TelaInicialState extends State<TelaInicial> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Image.asset(
+                      'img/api.png',
+                      scale: 45.0,
+                      fit: BoxFit.fitWidth,
+                    ),
+                  ),
+                  new Text(
+                    'Api',
+                    style: TextStyle(fontSize: 15.0),
+                  ),
+                ],
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/api');
+              },
+            ),
+            new Divider(
+              color: Colors.black12,
+              thickness: 2.0,
+            ),
+            new ListTile(
+              title: Row(
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image.asset(
                       'img/about.png',
                       scale: 8.0,
                       fit: BoxFit.fitWidth,
@@ -131,8 +155,6 @@ class _TelaInicialState extends State<TelaInicial> {
               onTap: () {
                 Navigator.pushNamed(context, "/telal");
               },
-
-              // Navigator.pushNamed(context, '/telal');
             )
           ],
         ),
