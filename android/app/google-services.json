@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400523814206",
+    "firebase_url": "https://meu-dentinho-app.firebaseio.com",
+    "project_id": "meu-dentinho-app",
+    "storage_bucket": "meu-dentinho-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400523814206:android:84eb9573c609214c1d786f",
+        "android_client_info": {
+          "package_name": "com.example.meus_dentinhosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400523814206-3j9catm1tcgs0f8u8fahj4uaen8roiui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0824bGCSFjCPjmInns_N06AgJ2KKAD9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400523814206-3j9catm1tcgs0f8u8fahj4uaen8roiui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
